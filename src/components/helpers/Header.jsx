@@ -5,7 +5,9 @@ const Header = () => {
     <section>
         <header>
             <nav>
-                <LInk></LInk>
+                <LInk to={"/"}>Home</LInk>
+                <LInk to={"/administrador"}>Home</LInk>
+                <LInk to={"/clientes"}>Home</LInk>
             </nav>
         </header>
     </section>
