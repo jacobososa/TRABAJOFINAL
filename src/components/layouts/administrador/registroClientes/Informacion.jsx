@@ -1,3 +1,4 @@
+import Header from "../../../helpers/Header"
 
 
 const Informacion = () => {
@@ -8,6 +9,7 @@ const Informacion = () => {
             <table>
                 <thead>
                 <tr>
+                    <Header/>
                     <th>N°</th>
                     <th>Nombre</th>
                     <th>Apellidos</th>
