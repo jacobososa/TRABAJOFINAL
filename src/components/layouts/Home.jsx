@@ -1,7 +1,10 @@
-
+import Header from "../helpers/Header.jsx"
 
 const Home = () => {
+
   return (
+    <main>
+      <Header />
     <section className="contenedor__todo">
       <section class="caja__trasera">
         <section class="caja__trasera-login">
@@ -30,6 +33,7 @@ const Home = () => {
         </form>
       </section>
     </section>
+    </main>
   );
 };
 
