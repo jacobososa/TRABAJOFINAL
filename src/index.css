@@ -174,3 +174,64 @@ margin: auto;
 }
 
 }
+
+/*TAREAS CLIENTES*/
+  .table-container {
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .creative-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .creative-table th,
+  .creative-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .creative-table thead th {
+    background-color: #fc0000f3;
+    color: white;
+  }
+  
+  .creative-table tbody tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .creative-table tbody tr:last-child {
+    border-bottom: none;
+  }
+  
+  .creative-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .uno{
+    background-color: #f2f2f2;
+  }
+  .creative-table tbody td[data-label]:before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: black;
+    display: block;
+  }
+  
+
+  .creative-table tbody tr:hover {
+    background-color: #f9e79f;
+    transition: background-color 0.3s ease;
+  }
+
+  .titutarea{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: 40px;
+  }
+  
