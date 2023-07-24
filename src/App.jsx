@@ -7,6 +7,7 @@ import TareasClientes from "./components/layouts/clientes/TareasClientes"
 import Tienda from "./components/layouts/clientes/Tienda"
 import { PaginaPrincipalAdmin } from "./components/layouts/administrador/PaginaPrincipalAdmin"
 
+
 const router = createBrowserRouter([
   {
     path:"/",
@@ -48,7 +49,9 @@ const router = createBrowserRouter([
     element: <Tienda/>,
 
   },
-
+   { path:"/cliente",
+     element: <PaginaPrincipal/>
+   }
 
 ]);
 

@@ -244,4 +244,24 @@ margin: auto;
    text-decoration: none;
   }
 
+  .caja__trasera-register a{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    transition: all 300ms;
+  }
+
+  .caja__trasera-register a:hover{
+    background-color: #fff;
+    color: #fd4646;
+    border-color:#fd4646 ;
+  }
   
