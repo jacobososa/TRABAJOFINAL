@@ -1,4 +1,4 @@
-import Header from "../../../helpers/Header"
+import HeaderAdmin from "../../../helpers/HeaderAdmin"
 
 
 const Informacion = () => {
@@ -9,7 +9,7 @@ const Informacion = () => {
             <table>
                 <thead>
                 <tr>
-                    <Header/>
+                    <HeaderAdmin/>
                     <th>N°</th>
                     <th>Nombre</th>
                     <th>Apellidos</th>

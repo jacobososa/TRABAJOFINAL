@@ -18,20 +18,6 @@ const Home = () => {
           <button id="btn__registrarse"> Cliente</button>
         </section>
       </section>
-      <section class="contenedor__login-register">
-        <form action="" class="formulario__login">
-          <h2>Administrador</h2>
-          <input type="text" placeholder="Usuario" />
-          <input type="password" placeholder="Cotraseña" />
-          <button type="button">Entrar</button>
-        </form>
-        <form action="" className="formulario__register">
-          <h2>Cliente</h2>
-          <input type="text" placeholder="Usuario" />
-          <input type="password" placeholder="Cotraseña" />
-          <button type="button">Entrar</button>
-        </form>
-      </section>
     </section>
     </main>
   );

@@ -5,6 +5,7 @@ import Home from "./components/layouts/Home"
 import PaginaPrincipal from "./components/layouts/clientes/PaginaPrincipal"
 import TareasClientes from "./components/layouts/clientes/TareasClientes"
 import Tienda from "./components/layouts/clientes/Tienda"
+import { PaginaPrincipalAdmin } from "./components/layouts/administrador/PaginaPrincipalAdmin"
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,12 @@ const router = createBrowserRouter([
   {
     path:"/paginaclientes",
     element: <PaginaPrincipal/>
+
+  },
+
+  {
+    path:"/paginaadministrador",
+    element: <PaginaPrincipalAdmin/>
 
   },
 

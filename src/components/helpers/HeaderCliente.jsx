@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const HeaderCliente = () => {
   return (
     <section>
         <header className="header_Clientes">
@@ -14,4 +14,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderCliente

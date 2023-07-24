@@ -1,11 +1,11 @@
-import Header from "../../../helpers/Header"
+import HeaderAdmin from "../../../helpers/HeaderAdmin"
 
 
 const Tareas = () => {
   
   return (
     <>
-        <Header/>
+        <HeaderAdmin/>
        
     </>
   )

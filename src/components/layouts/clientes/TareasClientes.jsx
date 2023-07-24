@@ -2,6 +2,7 @@ import Header from "../../helpers/Header";
 import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { database } from "./config/Tareaconnection";
+import HeaderCliente from "../../helpers/HeaderCliente";
 
 const TareasClientes = () => {
   const [listaTareas, setListaTareas] = useState([]);
@@ -17,7 +18,7 @@ const TareasClientes = () => {
 
   return (
     <section>
-      <Header />
+      <HeaderCliente/>
       <h3 className="titutarea">Tareas</h3>
       <section className="table-container">
         <table className="creative-table">
