@@ -1,4 +1,3 @@
-import Header from "../../helpers/Header";
 import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { database } from "./config/Tareaconnection";
