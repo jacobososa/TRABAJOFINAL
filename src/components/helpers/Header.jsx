@@ -5,10 +5,12 @@ const Header = () => {
     <section>
         <header>
             <nav>
-                <Link to={"/home"}>Home</Link>
-                <Link to={"/informacion"}>REGISTRO E INFORMACION DE CLIENTES</Link>
+                <Link to={"/"}>Home</Link>
+                <Link to={"/informacion"}>Registro e Infromación de clientes</Link>
                 <Link to={"/tareas"}>Tareas A Realizar</Link>
-
+                <Link to={"/paginaclientes"}>Pagina Principal</Link>
+                <Link to={"/tareaclientes"}>Tareas</Link>
+                <Link to={"/tiendaclientes"}>Tienda</Link>
             </nav>
         </header>
     </section>

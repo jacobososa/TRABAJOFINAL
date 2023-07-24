@@ -1,9 +1,17 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Informacion from "./components/layouts/administrador/registroClientes/Informacion";
-import Tareas from "./components/layouts/administrador/registroTareas/Tareas";
-import Home from "./components/layouts/Home";
+import Informacion from "./components/layouts/administrador/registroClientes/Informacion"
+import Tareas from "./components/layouts/administrador/registroTareas/Tareas"
+import Home from "./components/layouts/Home"
+import PaginaPrincipal from "./components/layouts/clientes/PaginaPrincipal"
+import TareasClientes from "./components/layouts/clientes/TareasClientes"
+import Tienda from "./components/layouts/clientes/Tienda"
 
 const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <Home/>,
+
+  },
 
   {
     path:"/informacion",
@@ -15,9 +23,22 @@ const router = createBrowserRouter([
     element: <Tareas/>,
 
   },
+ 
   {
-    path:"/",
-    element: <Home/>,
+    path:"/paginaclientes",
+    element: <PaginaPrincipal/>
+
+  },
+
+  {
+    path:"/tareaclientes",
+    element: <TareasClientes/>,
+
+  },
+
+  {
+    path:"/tienda",
+    element: <Tienda/>,
 
   },
 

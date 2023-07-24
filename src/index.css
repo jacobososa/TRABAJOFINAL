@@ -177,13 +177,13 @@ margin: auto;
 
 /*TAREAS CLIENTES*/
   .table-container {
-    max-width: 800px;
-    margin: 50px auto;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
   }
   
   .creative-table {
-    width: 100%;
+    width: 60%;
     border-collapse: collapse;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -213,9 +213,12 @@ margin: auto;
     background-color: #f2f2f2;
   }
   
-  .uno{
+  .uno td{
     background-color: #f2f2f2;
+    width: 300px;
   }
+
+  
   .creative-table tbody td[data-label]:before {
     content: attr(data-label);
     font-weight: bold;
@@ -224,7 +227,7 @@ margin: auto;
   }
   
 
-  .creative-table tbody tr:hover {
+  .creative-table td:hover {
     background-color: #f9e79f;
     transition: background-color 0.3s ease;
   }
@@ -234,4 +237,11 @@ margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-size: 40px;
   }
+  
+  a{
+   color: white;
+   font-size: 20px;
+   text-decoration: none;
+  }
+
   
