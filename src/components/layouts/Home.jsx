@@ -17,18 +17,19 @@ const Home = () => {
     window.location.href = "/paginaadministrador";
     return null;
   }
-  
+
   return (
     <section>
-    <HeaderAdmin />
+      <HeaderAdmin />
       <HeaderCliente />
       <main className="contenedor__todo">
         <section class="caja__trasera">
           <section class="caja__trasera-login">
             <h3>¿Eres un administrador?</h3>
             <p>Ingrese el pin y dale al boton para iniciar sesión</p>
-            <input className="InputValidacion"
-              type="text"
+            <input
+              className="InputValidacion"
+              type="password"
               placeholder="Ingrese el pin"
               onChange={(e) => setInputPin(e.target.value)}
             />
@@ -47,8 +48,8 @@ const Home = () => {
           </section>
         </section>
       </main>
-      </section>
-      )
+    </section>
+  );
 };
 
 export default Home;

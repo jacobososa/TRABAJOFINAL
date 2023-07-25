@@ -131,6 +131,7 @@ display:none;
 @media screen and (max-width: 850px){
 
     
+
 .caja__trasera{
 max-width: 350px;
 height: 300px;
@@ -247,6 +248,18 @@ margin: auto;
   }
   
 
+  
+  /* Tienda-Clientes */
+  .imagen-fondo{
+    height: 400px;
+    width: 100%;
+    background-image: url(./assets/verduras.jpeg);
+  }
+  .tienda{
+    width: 100%;
+    background-color: black;
+  }
+
   .caja__trasera-login a{
     padding: 10px 5px;
     border: 2px solid #fff;
@@ -267,13 +280,20 @@ margin: auto;
     border-color:#fd4646 ;
   }
   /* PAGINA PRINCIPAL */
-  .PAGINAPRINCIPAL{
-    background-color: red;
+  .boton_Inicio{
+    padding: 10px 40px;
+    border: 2px solid #faf7f7;
+    background: transparent;
     position: relative;
-    top: 200px;
-    left: 500px;
-    height: 500px;
-    width: 600px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 300ms;
+    margin: 10px;
   }
   
   .header__PaginaPrincipalAdmin{
