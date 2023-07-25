@@ -278,15 +278,42 @@ margin: auto;
     border-color:#fd4646 ;
   }
   /* PAGINA PRINCIPAL */
-  .PAGINAPRINCIPAL{
-    background-color: red;
+  .boton_Inicio{
+    padding: 10px 40px;
+    border: 2px solid #faf7f7;
+    background: transparent;
     position: relative;
-    top: 200px;
-    left: 500px;
-    height: 500px;
-    width: 600px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 300ms;
+    margin: 10px;
   }
-  .header__PaginaPrincipalAdmin{
-    background-color: blue;
+  .PAGINAPRINCIPAL h1{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    top: 40px;
+  }
 
+  .header__PaginaPrincipalAdmin a{
+    background-color: rgb(238, 44, 15);
+    padding: 10px 40px;
+    border: 2px solid #faf7f7;
+    background: transparent;
+    position: relative;
+    text-align: center;
+    top: 250px;
+    left: 150px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    transition: all 300ms;
+    margin: 10px;
   }
