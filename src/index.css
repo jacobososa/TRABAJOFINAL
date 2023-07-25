@@ -130,11 +130,7 @@ display:none;
 
 @media screen and (max-width: 850px){
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0bf93b182f9739e84a5035b9acaac87d8822b7c6
-    
 .caja__trasera{
 max-width: 350px;
 height: 300px;
@@ -249,11 +245,9 @@ margin: auto;
     color: #fd4646;
     border-color:#fd4646 ;
   }
-<<<<<<< HEAD
+
   
   /* Tienda-Clientes */
-
-
   .imagen-fondo{
     height: 400px;
     width: 100%;
@@ -262,7 +256,8 @@ margin: auto;
   .tienda{
     width: 100%;
     background-color: black;
-=======
+  }
+
   .caja__trasera-login a{
     padding: 10px 5px;
     border: 2px solid #fff;
@@ -293,5 +288,5 @@ margin: auto;
   }
   .header__PaginaPrincipalAdmin{
     background-color: blue;
->>>>>>> 0bf93b182f9739e84a5035b9acaac87d8822b7c6
+
   }
