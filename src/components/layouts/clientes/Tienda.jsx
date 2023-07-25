@@ -1,3 +1,4 @@
+import { FaShoppingCart } from 'react-icons/fa'
 import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { database } from "./config/Tareaconnection";
@@ -15,15 +16,28 @@ const Tienda = () => {
       mostrarTareas();
     }, []);
 
+    const [Valor, setValor] = useState(0);
+    const Sumar = () =>{
+      setValor(Valor+1);
+    }
+
   return (
     <main className="imagen-fondo">
         <HeaderCliente/>
         <section className="tienda">
+        <section className="carrito">
+          <h1>Tienda El Benecefactor</h1>
+        <FaShoppingCart className='compras'/>
+        <section className='contador'>
+        <h3>{Valor}</h3>
+        </section>
+        </section>
       {listaTareas.map((tareaItem) => (
-        <section key={tareaItem.nombre}>
-          <img src={tareaItem.imagen} alt="verdura" />
+        <section className="secciones-tienda" key={tareaItem.nombre}>
           <h2>{tareaItem.nombre}</h2>
-          <p>{tareaItem.precio}</p>
+          <h2>{tareaItem.precio}</h2>
+          <img src={tareaItem.imagen} alt="verdura" />
+          <button onClick={Sumar}>{tareaItem.boton} Agregar Al Carrito</button>
         </section>
       ))}
     </section>

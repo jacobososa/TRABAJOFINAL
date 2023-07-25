@@ -130,10 +130,6 @@ display:none;
 
 @media screen and (max-width: 850px){
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0bf93b182f9739e84a5035b9acaac87d8822b7c6
     
 .caja__trasera{
 max-width: 350px;
@@ -249,20 +245,8 @@ margin: auto;
     color: #fd4646;
     border-color:#fd4646 ;
   }
-<<<<<<< HEAD
   
-  /* Tienda-Clientes */
 
-
-  .imagen-fondo{
-    height: 400px;
-    width: 100%;
-    background-image: url(./assets/verduras.jpeg);
-  }
-  .tienda{
-    width: 100%;
-    background-color: black;
-=======
   .caja__trasera-login a{
     padding: 10px 5px;
     border: 2px solid #fff;
@@ -291,7 +275,122 @@ margin: auto;
     height: 500px;
     width: 600px;
   }
+  
   .header__PaginaPrincipalAdmin{
-    background-color: blue;
->>>>>>> 0bf93b182f9739e84a5035b9acaac87d8822b7c6
+    background-color: #fd4646;
   }
+
+   /* Tienda-Clientes */
+
+
+   .imagen-fondo{
+    height: 400px;
+    width: 100%;
+    background-image: url(./assets/verduras.jpeg);
+  }
+  .tienda{
+    width: 100%;
+    height: 1350px;
+    position: relative;
+    display: flex;
+    top: 367px;
+    flex-wrap: wrap;
+    background-color: black;
+    gap: 40px;
+  }
+  .secciones-tienda{
+    width: 280px;
+    height: 320px;
+    background-color: white;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    left: 120px;
+    top: 20px;
+  }
+
+  img{
+    width: 200px;
+    height: 150px;
+    border: solid 2px black;
+    position: relative;
+    right: 10px;
+  }
+
+.secciones-tienda h2{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  bottom: 30px;
+}
+
+
+.secciones-tienda button{
+  padding: 10px 40px;
+  width: 220px;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  background-color: green;
+  cursor:pointer;
+  font-size: 15px;
+  color: white;
+  border-radius: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.secciones-tienda button:hover{
+  background-color: white;
+  border-color: green;
+  color: green;
+}
+
+.carrito{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+.compras{
+  position: relative;
+  left: 86%;
+  bottom: 25px;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.carrito h1{
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-style:oblique;
+  text-shadow: 4px 4px 4px  green;
+}
+.carrito h3{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative; 
+  top:7px;
+}
+.contador{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  position: relative;
+  left: 89%;
+  bottom: 75px;
+  color: white;
+}
