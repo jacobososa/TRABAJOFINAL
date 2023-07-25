@@ -296,9 +296,24 @@ margin: auto;
     margin: 10px;
   }
   
-  .header__PaginaPrincipalAdmin{
+  .header__PaginaPrincipalAdmin a{
     background-color: #fd4646;
+    padding: 10px 40px;
+    border: 2px solid #faf7f7;
+    background: transparent;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    left: 40px;
+    top: 170px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 300ms;
+    margin: 10px;
   }
+
 
    /* Tienda-Clientes */
 

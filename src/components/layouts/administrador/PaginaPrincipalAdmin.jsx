@@ -5,7 +5,7 @@ import Home from '../Home'
 export const PaginaPrincipalAdmin = () => {
   return (
     <section>
-        
+        <HeaderAdmin/>
         <section className='PAGINAPRINCIPAL'>
         <h1>PAGINA PRINCIPAL</h1>
         
