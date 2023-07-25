@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { RouterProvider, createBrowserRouter} from "react-router-dom"
 import Informacion from "./components/layouts/administrador/registroClientes/Informacion"
 import Tareas from "./components/layouts/administrador/registroTareas/Tareas"
 import Home from "./components/layouts/Home"
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path:"/tienda",
+    path:"/tiendaclientes",
     element: <Tienda/>,
 
   },
