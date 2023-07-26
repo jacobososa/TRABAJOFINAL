@@ -388,7 +388,7 @@ margin: auto;
   }
   .secciones-tienda{
     width: 280px;
-    height: 320px;
+    height: 350px;
     background-color: white;
     justify-content:space-around;
     align-items: center;
@@ -468,7 +468,7 @@ margin: auto;
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative; 
-  top:-10px;
+  top:-15px;
 }
 .contador{
   background-color: green;
