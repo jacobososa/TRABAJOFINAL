@@ -1,5 +1,3 @@
-import HeaderCliente from "../helpers/HeaderCliente";
-import HeaderAdmin from "../helpers/HeaderAdmin";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -20,8 +18,6 @@ const Home = () => {
 
   return (
     <section>
-      <HeaderAdmin />
-      <HeaderCliente />
       <main className="contenedor__todo">
         <section class="caja__trasera">
           <section class="caja__trasera-login">

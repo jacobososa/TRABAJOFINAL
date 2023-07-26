@@ -5,7 +5,7 @@ const HeaderAdmin = () => {
     <section>
     <header className="header_Administrador">
         <nav>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/"}>Cerrar Seccion</Link>
         </nav>
     </header>
 </section>

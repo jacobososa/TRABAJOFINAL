@@ -26,6 +26,7 @@ const Tareas = () => {
               <th>Documento</th>
               <th>Tarea a Realizar</th>
               <th>Descripción de la Tarea</th>
+              <th>Actividad</th>
               
             </tr>
           </thead>
@@ -36,6 +37,7 @@ const Tareas = () => {
                 <td>{tareaItem.documento}</td>
                 <td>{tareaItem.tarea}</td>
                 <td>{tareaItem.descripción}</td>
+                <td><input type="checkbox"/></td>
               </tr>
             ))}
           </tbody>

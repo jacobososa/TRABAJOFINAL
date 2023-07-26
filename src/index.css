@@ -7,6 +7,21 @@
     font-family: 'Roboto', sans-serif;
 
 }
+.header_Administrador{
+        background-color: #fd4646;
+    padding: 10px 4px;
+    border: 2px solid #faf7f7;
+    background: transparent;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 300ms;
+    margin: 10px;
+}
 
 body{
 
@@ -18,11 +33,11 @@ background-attachment: fixed;
 }
 .InputValidacion{
   padding: 10px 2px;
-  border: 2px solid #fff;
   position: relative;
   margin: 20px;
   cursor: pointer;
   color:rgb(8, 8, 8);
+  border-radius: 10px;
   
 }
 
@@ -279,7 +294,7 @@ margin: auto;
     color: #fd4646;
     border-color:#fd4646 ;
   }
-  /* PAGINA PRINCIPAL */
+  /* PAGINA PRINCIPAL ADMINISTRADOR */
   .boton_Inicio{
     padding: 10px 40px;
     border: 2px solid #faf7f7;
@@ -306,12 +321,21 @@ margin: auto;
     cursor: pointer;
     color:white;
     outline: none;
-    left: 40px;
-    top: 170px;
+    left: 550px;
+    bottom: 250px;
     font-size: 14px;
     font-weight: 600;
     transition: all 300ms;
     margin: 10px;
+    
+  }
+  .logo{
+    border-radius: 300px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 350px;
+    left: 100px;
   }
 
 
