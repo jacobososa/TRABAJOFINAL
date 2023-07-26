@@ -48,7 +48,8 @@ const Home = () => {
           </section>
         </section>
       </main>
-    </section>
+      <h1>Hola</h1>
+    </section>    
   );
 };
 
