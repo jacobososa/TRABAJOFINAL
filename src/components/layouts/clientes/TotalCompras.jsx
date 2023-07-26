@@ -18,7 +18,7 @@ const TotalCompras = () => {
   return (
     <section>
     <HeaderCliente/>
-    <h3 className="titutarea">Total compras</h3> 
+    <h3 className="totalproductos">Productos Agregados</h3> 
     <section className="table-container">
         <table className="creative-table">
           <thead>

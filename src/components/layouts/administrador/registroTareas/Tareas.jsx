@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { database } from "../../clientes/config/Tareaconnection";
 import { Link } from "react-router-dom";
+import HeaderAdmin from "../../../helpers/HeaderAdmin"
 
 const Tareas = () => {
   const [listaTareas, setListaTareas] = useState([]);
@@ -16,6 +17,7 @@ const Tareas = () => {
   }, []);
   return (
     <section>
+      <HeaderAdmin/>
       <Link className="boton_Inicio" to={"/paginaadministrador"}>Inicio</Link>
       <h3 className="titutarea">Tareas</h3>
       <section className="table-container">
