@@ -7,6 +7,7 @@ import TareasClientes from "./components/layouts/clientes/TareasClientes";
 import Tienda from "./components/layouts/clientes/Tienda";
 import { PaginaPrincipalAdmin } from "./components/layouts/administrador/PaginaPrincipalAdmin";
 import TiendaAdministrador from "./components/layouts/administrador/registroTienda/TiendaAdministrador";
+import TotalCompras from "./components/layouts/clientes/TotalCompras";
 
 const router = createBrowserRouter([
   {
@@ -43,11 +44,18 @@ const router = createBrowserRouter([
     element: <Tienda />,
   },
 
-  { path: "/cliente",
+  { 
+    path: "/cliente",
     element: <PaginaPrincipal /> },
 
-  { path: "/tienda_admin", 
-    element: <TiendaAdministrador /> },
+  { 
+    path: "/tienda_admin", 
+    element: <TiendaAdministrador /> 
+  },
+  { 
+    path: "/total",
+    element: <TotalCompras/>
+  }
 ]);
 
 function App() {

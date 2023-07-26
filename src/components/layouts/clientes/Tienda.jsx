@@ -2,7 +2,7 @@ import { FaShoppingCart } from 'react-icons/fa'
 import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { database } from "./config/Tareaconnection";
-import HeaderCliente from '../../helpers/HeaderCliente'
+import { Link } from 'react-router-dom';
 
 const Tienda = () => {
     const [listaTareas, setListaTareas] = useState([]);
@@ -23,12 +23,13 @@ const Tienda = () => {
 
   return (
     <main className="imagen-fondo">
-        <HeaderCliente/>
+       <Link className="boton_Inicio_clientes" to={"/cliente"}>Inicio</Link>
         <section className="tienda">
-        <section className="carrito">
+        <section className="carrito">   
           <h1>Tienda El Benecefactor</h1>
         <FaShoppingCart className='compras'/>
         <section className='contador'>
+        <Link className="total_compras" to={"/total"}>Total</Link>
         <h3>{Valor}</h3>
         </section>
         </section>

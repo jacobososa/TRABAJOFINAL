@@ -8,6 +8,7 @@ const HeaderCliente = () => {
                 <Link to={"/paginaclientes"}>Pagina Principal</Link>
                 <Link to={"/tareaclientes"}>Tareas</Link>
                 <Link to={"/tiendaclientes"}>Tienda</Link>
+                <Link to={"/"}>Cerra Sesión</Link>
                 </nav>
         </header>
     </section>

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import HeaderAdmin from '../../helpers/HeaderAdmin'
-import Home from '../Home'
 
 export const PaginaPrincipalAdmin = () => {
   return (

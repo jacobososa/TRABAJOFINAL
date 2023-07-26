@@ -20,8 +20,6 @@ const Home = () => {
 
   return (
     <section>
-      <HeaderAdmin />
-      <HeaderCliente />
       <main className="contenedor__todo">
         <section class="caja__trasera">
           <section class="caja__trasera-login">
@@ -35,11 +33,7 @@ const Home = () => {
             />
             <Link
               to={PinValidacion ? { pathname: "/" } : "/paginaadministrador"}
-              onClick={PinValidacion}
-            >
-              {" "}
-              Administracion
-            </Link>
+              onClick={PinValidacion}>{" "}Administracion</Link>
           </section>
           <section class="caja__trasera-register">
             <h3>¿Eres un cliente?</h3>
@@ -48,7 +42,6 @@ const Home = () => {
           </section>
         </section>
       </main>
-      <h1>Hola</h1>
     </section>    
   );
 };
