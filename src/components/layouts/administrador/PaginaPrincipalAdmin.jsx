@@ -14,6 +14,7 @@ export const PaginaPrincipalAdmin = () => {
         <Link to={"/informacion"}>Registro e Infromación de clientes</Link>
         <Link to={"/tienda_admin"} >Tienda</Link>
         
+        <img className='logo' src="/LogoFinca.jpg" alt="" />
         </nav>
         </header>
         

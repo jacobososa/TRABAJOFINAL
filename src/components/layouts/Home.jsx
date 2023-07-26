@@ -1,5 +1,3 @@
-import HeaderCliente from "../helpers/HeaderCliente";
-import HeaderAdmin from "../helpers/HeaderAdmin";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
