@@ -7,36 +7,20 @@
     font-family: 'Roboto', sans-serif;
 
 }
-.header_Administrador{
-    background-color: #fd4646;
-    padding: 10px 4px;
-    border: 2px solid #faf7f7;
-    background: transparent;
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-    color:white;
-    outline: none;
-    font-size: 14px;
-    font-weight: 600;
-    transition: all 300ms;
-    margin: 10px;
-}
+
 
 body{
 background-image: url("/public/Fondo_login.jpg");
-backdrop-filter: blur(5px);
 background-size: cover;
 background-repeat: no-repeat;
 }
+
 .InputValidacion{
-  padding: 10px 2px;
+  padding: 10px 10px;
+  width: 300px;
   position: relative;
-  margin: 20px;
-  cursor: pointer;
   color:rgb(8, 8, 8);
   border-radius: 10px;
-  
 }
 
 
@@ -59,7 +43,7 @@ background-color: rgba(255, 0, 0, 0.327);
 }
 
 .caja__trasera section{
-    margin: 100px 40px;
+    margin: 90px;
     color: white;
    
 }
@@ -70,31 +54,11 @@ margin-top: 30px;
 
 .caja__trasera section h3{
 font-weight: 400;
-font-size: 26px;
-}
-
-
-.contenedor__login-register{
-    display:flex;
-    align-items: center;
-    width: 100%;
-    max-width: 300px;
-    position: relative;
-    top: -185px;
-    left: 10px;
-    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-}
-
-.contenedor__login-register form{
-width: 100%;
-padding: 80px 20px;
-background: #fff;
-position: absolute;
-border-radius: 20px;
+font-size: 20px;
 }
 
 .contenedor__login-register form h2{
-font-size: 30px;
+font-size: 20px;
 text-align: center;
 margin-bottom: 20px;
 color: #fd4646;
@@ -125,15 +89,6 @@ cursor: pointer;
 outline: none;
 }
 
-.formulario__login{
-opacity: 1;
-display:block;
-}
-
-.formulario__register{
-display:none;
-}
-
 .contenedor__login-register form button:hover{
     color: red;
     background-color: white;
@@ -143,13 +98,9 @@ display:none;
 
 @media screen and (max-width: 850px){
 
-    
-
 .caja__trasera{
 max-width: 350px;
 height: 300px;
-flex-direction: column;
-margin: auto;
 }
 
 .caja__trasera section{
@@ -161,7 +112,6 @@ position: absolute;
 .contenedor__login-register{
 top: -10px;
 left: -5px;
-margin: auto;
 }
 
 .contenedor__login-register form{
@@ -242,20 +192,28 @@ margin: auto;
     left: 45%;
     background-color: #fc00007c;
   }
-  
-  a{
-   color: white;
-   font-size: 20px;
-   text-decoration: none;
+  .titutareas{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: 40px;
+    border-radius:30px ;
+    border:solid 3px white;
+    position: relative;
+    color: white;
+    width: 500px;
+    top: 40px;
+    left: 32%;
+    background-color: #fc00007c;
   }
-
+  
   .caja__trasera-register a{
-    padding: 10px 40px;
+    padding: 10px 80px;
     border: 2px solid #fff;
     background: transparent;
     position: relative;
-    top: 40px;
-    left: 60px;
+    top: 106px;
+    right: 30px;
+    text-decoration: none;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -269,42 +227,58 @@ margin: auto;
     color: #fd4646;
     border-color:#fd4646 ;
   }
-  
 
-  
-  .caja__trasera-login a{
+  .caja__trasera-register p{
+    font-size: 17px;
+    position: relative;
+    font-weight: 100;
+    right: 30px;
+  }
+  .caja__trasera-register h3{
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+  }
+
+  .btn-login-admin{ 
+    padding: 10px 40px;
     border: 2px solid #fff;
     background: transparent;
     position: relative;
     top: 60px;
-    width: 200px;
-    left: 40px;
-    font-size: 14px;
+    left: 20px;
+    font-size: 17px;
+    text-decoration: none;
     font-weight: 600;
     cursor: pointer;
     color:white;
     transition: all 300ms;
   }
-  .caja__trasera-login a:hover{
+  .btn-login-admin:hover{
     background-color: #fff;
     color: #fd4646;
-    border-color:#fd4646 ;
+    border-color:#fd4646;
   }
   /* PAGINA PRINCIPAL ADMINISTRADOR */
   .boton_Inicio{
-    padding: 10px 40px;
-    border: 2px solid #faf7f7;
-    background: transparent;
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-    color:white;
-    outline: none;
-    top: 40px;
-    font-size: 14px;
-    font-weight: 600;
-    transition: all 300ms;
-    margin: 10px;
+  padding: 10px 40px;
+  border: 2px solid white;
+  background-color: green;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  color:white;
+  top: 300px;
+  left:40px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px;
+  }
+  .boton_Inicio:hover{
+  background-color: white;
+  border-color: green;
+  color: green;
   }
   
   .header__PaginaPrincipalAdmin a{
@@ -328,11 +302,27 @@ margin: auto;
     position: relative;
     width: 400px;
     height: 400px;
-    top: 350px;
-    left: 100px;
+    top: 250px;
   }
 
-
+  .boton_Inicios{
+    padding: 10px 40px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 20px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+  }
+  .boton_Inicios:hover{
+    background-color: #fff;
+    color: #fd4646;
+    border-color:#fd4646;
+  }
+  a{
+    text-decoration: none;
+  }
   /* Pagina principal clientes */
   .header_Clientes a{
     background-color: transparent;
@@ -342,12 +332,13 @@ margin: auto;
     text-align: center;
     cursor: pointer;
     color:white;
-    outline: none;
+    text-decoration: none;
     top: -70px;
+    left: 100px;
     font-size: 14px;
     font-weight: 600;
     transition: all 300ms;
-    margin: 100px;
+    margin: 40px;
   }
   .header_Clientes{
     text-align: center;
@@ -356,12 +347,18 @@ margin: auto;
     border-bottom:solid 3px white;
   }
 
+  .header_Clientes a:hover{
+    background-color: #fff;
+    color: #fd4646;
+    border-color:#fd4646;
+  }
+
   .logodos{
     width: 130px;
     height: 130px;
     border-radius: 100px;
     position: relative;
-    right: 850px;
+    right: 550px;
     top: 10px;
   }
 
@@ -370,6 +367,25 @@ margin: auto;
     background-color: #fc0000a8;
     height: 160px;
     border-bottom:solid 3px white;
+  }
+
+  .header_Administrador a{
+    background-color: transparent;
+    padding: 10px 40px;
+    border: 2px solid #faf7f7;  
+    position: relative;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    top: 70px;
+    font-weight: 600;
+    margin:30px;
+  }
+  .header_Administrador a:hover{
+    background-color: #fff;
+    color: #fd4646;
+    border-color:#fd4646;
   }
 
    /* Tienda-Clientes */
@@ -539,6 +555,6 @@ margin: auto;
   color: white;
   width: 400px;
   top: 40px;
-  left: 40%;
+  left: 35%;
   background-color: #fc00007c;
 }

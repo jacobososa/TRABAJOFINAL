@@ -4,18 +4,12 @@ import HeaderAdmin from '../../helpers/HeaderAdmin'
 export const PaginaPrincipalAdmin = () => {
   return (
     <section>
-        <HeaderAdmin/>
-        <section className='PAGINAPRINCIPAL'>
         <header className='header__PaginaPrincipalAdmin'> 
-          <nav>
-        <Link to={"/tareas"}>Tareas</Link>
-        <Link to={"/informacion"}>Registro e Infromación de clientes</Link>
-        <Link to={"/tienda_admin"} >Tienda</Link>
+        <HeaderAdmin />
+        <section>
         <img className='logo' src="/LogoFinca.jpg" alt="" />
-        </nav>
-        </header>
-        
         </section>
+        </header>
     </section>
   )
 }

@@ -17,8 +17,8 @@ const Informacion = () => {
   }, []);
   return (
     <section>
-      <h1 className="titutarea">REGISTRO E INFORMACION DE CLIENTES</h1>
-              <Link className="boton_Inicio" to={"/paginaadministrador"}>Inicio</Link>
+      <h1 className="titutareas">REGISTRO E INFORMACION DE CLIENTES</h1>
+              <Link className="boton_Inicios" to={"/paginaadministrador"}>Inicio</Link>
       <section className="table-container">
         <table className="creative-table">
           <thead>

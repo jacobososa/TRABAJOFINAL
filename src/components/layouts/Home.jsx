@@ -31,7 +31,7 @@ const Home = () => {
             />
             <Link
               to={PinValidacion ? { pathname: "/" } : "/paginaadministrador"}
-              onClick={PinValidacion}>{" "}Administracion</Link>
+              onClick={PinValidacion} className="btn-login-admin">{" "}Administracion</Link>
           </section>
           <section class="caja__trasera-register">
             <h3>¿Eres un cliente?</h3>
