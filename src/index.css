@@ -71,7 +71,7 @@ background-repeat: no-repeat;
     max-width: 800px;
     margin: auto;
     position: relative;
-    top: 300px;
+    top: 100px;
 }
 
 
@@ -606,4 +606,12 @@ left: -5px;
   top: 40px;
   left: 38%;
   background-color: #fc00007c;
+}
+.logo_login{
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  position: relative;
+  left: 40%;
+  top: 60px;
 }

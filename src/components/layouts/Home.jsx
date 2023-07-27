@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import imagen_logo from "../../assets/login.jpg";
 
 const Home = () => {
   const [PinValid, setPinValid] = useState(false);
@@ -18,6 +19,7 @@ const Home = () => {
 
   return (
     <section>
+      <img className="logo_login" src={imagen_logo} alt="login"></img>
       <main className="contenedor__todo">
         <section class="caja__trasera">
           <section class="caja__trasera-login">
