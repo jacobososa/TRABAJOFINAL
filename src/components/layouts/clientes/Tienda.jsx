@@ -29,8 +29,8 @@ const Tienda = () => {
           <h1>Tienda El Benecefactor</h1>
         <FaShoppingCart className='compras'/>
         <section className='contador'>
+        <h3 className="numero">{Valor}</h3>
         <Link className="total_compras" to={"/total"}>Total</Link>
-        <h3>{Valor}</h3>
         </section>
         </section>
       {listaTareas.map((tareaItem) => (
