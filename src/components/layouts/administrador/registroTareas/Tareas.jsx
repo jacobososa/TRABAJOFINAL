@@ -26,6 +26,7 @@ const Tareas = () => {
               <th>Documento</th>
               <th>Tarea a Realizar</th>
               <th>Descripción de la Tarea</th>
+              <th>Precio</th>
               <th>Actividad</th>
               
             </tr>
@@ -37,6 +38,7 @@ const Tareas = () => {
                 <td>{tareaItem.documento}</td>
                 <td>{tareaItem.tarea}</td>
                 <td>{tareaItem.descripción}</td>
+                <td>{tareaItem.precio}</td>
                 <td><input type="checkbox"/></td>
               </tr>
             ))}

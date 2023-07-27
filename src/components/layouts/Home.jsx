@@ -22,7 +22,7 @@ const Home = () => {
         <section class="caja__trasera">
           <section class="caja__trasera-login">
             <h3>¿Eres un administrador?</h3>
-            <p>Ingrese el pin y dale al boton para iniciar sesión</p>
+            <p>Ingrese el pin correcto y dale al boton para iniciar sesión</p>
             <input
               className="InputValidacion"
               type="password"

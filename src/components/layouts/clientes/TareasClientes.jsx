@@ -27,6 +27,7 @@ const TareasClientes = () => {
               <th>Documento</th>
               <th>Tarea a Realizar</th>
               <th>Descripción de la Tarea</th>
+              <th>Valor Tarea</th>
             </tr>
           </thead>
           <tbody>
@@ -35,9 +36,8 @@ const TareasClientes = () => {
                 <td>{tareaItem.nombre}</td>
                 <td>{tareaItem.documento}</td>
                 <td>{tareaItem.tarea}</td>
-                <td>
-                  {tareaItem.descripción}
-                </td>
+                <td>{tareaItem.descripción}</td>
+                <td>{tareaItem.precio}</td>
               </tr>
             ))
             }

@@ -7,7 +7,7 @@ const HeaderCliente = () => {
         <header className="header_Clientes">
           <img className="logodos" src={Imagen} alt="logo"/>
           <nav>
-                <Link to={"/paginaclientes"}>Pagina Principal</Link>
+                <Link to={"/paginaclientes"}>Inicio</Link>
                 <Link to={"/tareaclientes"}>Tareas</Link>
                 <Link to={"/tiendaclientes"}>Tienda</Link>
                 <Link to={"/"}>Cerra Sesión</Link>
